@@ -1,0 +1,10 @@
+.jumbotron {
+    background-color: red;
+}
+
+.tableheading {
+    background-color: blue;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 10px;
+}
