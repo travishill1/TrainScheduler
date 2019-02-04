@@ -31,11 +31,11 @@ crossorigin="anonymous"></script>
         </div>
       </div>
 
-    <div class="row">
+    <div class="row allcard">
       <div class="col-lg-12"></div>
           <div class="current-employees tableheading"><p>Current Train Schedule</p> 
         </div>
-    </div>
+    
 
         <div class="col-12">
           <table class="table">
@@ -45,7 +45,6 @@ crossorigin="anonymous"></script>
                 <th scope="col">Train Name</th>
                 <th scope="col">Destination</th>
                 <th scope="col">Frequency (min)</th>
-                <th scope="col">Months Worked</th>
                 <th scope="col">Next Arrival</th>
                 <th scope="col">Minutes Away</th>
               </tr>
@@ -55,11 +54,16 @@ crossorigin="anonymous"></script>
             </tbody>
           </table>
         </div>
-        <div class="row">
+    </div>
+
+<br>
+<br>
+
+        <div class="row allcard">
         <div class="col-lg-12 tableheading">
             Add Train
               </div>
-            </div>
+            
 
         <div class="col-lg-12">
                 <div class="card card-default">
@@ -70,20 +74,20 @@ crossorigin="anonymous"></script>
         
                     <form role="form">
                       <div class="form-group row">
-                        <label for="name-input">Name:</label>
+                        <label for="name-input">Train Name:</label>
                         <input class="form-control" id="name-input" type="text">
                       </div>
                       <div class="form-group row">
-                        <label for="email-input">Role:</label>
-                        <input class="form-control" id="role-input" type="role">
+                        <label for="destination-input">Destination:</label>
+                        <input class="form-control" id="destination-input" type="destination">
                       </div>
                       <div class="form-group row">
-                        <label for="age-input">Start Date:</label>
-                        <input class="form-control" id="date-input" type="date">
+                        <label for="time-input">First Train Time (HH:mm - military time):</label>
+                        <input class="form-control" id="time-input" type="time">
                       </div>
                       <div class="form-group row">
-                        <label for="rate-input">Monthly Rate</label>
-                        <input class="form-control" rows="5" id="rate-input"></textarea>
+                        <label for="frequency-input">Frequency (min)</label>
+                        <input class="form-control" rows="5" id="frequency-input"></textarea>
                       </div>
                       <button class="btn btn-default" id="add-employee" type="submit">Submit</button>
                     </form>
@@ -93,6 +97,7 @@ crossorigin="anonymous"></script>
                 </div>
         
               </div>
+            </div>
       </div>
     
     <script src="assets/javascript/javascript.js"></script>
