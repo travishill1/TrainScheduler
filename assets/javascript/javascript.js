@@ -4,9 +4,9 @@
 
 // 
 // duration = difference in CurrentTime and Start Time(input)
-// TimeRemainder = duration mod frequency.
-// Minutes Away = (frequency - remainder)
-// Next Arrival = Current Time + (Minutes Away)
+// timeRemainder = duration mod frequency.
+// Minutes Away = (frequency - timeRemainder)
+// Next Arrival = Current Time + Minutes Away
 
 
 var config = {

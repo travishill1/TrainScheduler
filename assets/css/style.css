@@ -1,5 +1,9 @@
 .jumbotron {
     background-color: blue;
+    background-image: url("https://www.myfavoritetoys.com/autism_include/faces/12.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-size: contain; */
     color: white;
 }
 
@@ -14,4 +18,9 @@
 .allcard {
     border: 3px solid blue;
 }
+
+h2 {
+    font-weight: bold;
+}
+
 
